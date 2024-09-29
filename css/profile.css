@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bodycol:#2E2828;
+    --primarycol: #503A3A;
+    --accentcol: #F65151;
+    --textcol: #FEF4F4;
+    --cardcol: rgb(68, 66, 66);
+    --transcol:rgba(206, 206, 206, 0.219);
+    --headerfont: 'Josefin Sans', sans-serif;
+    --border:1px solid rgba(255, 255, 255, 0.137);
+    --parafont: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--headerfont);
+}
+p,a{
+    font-family: var(--parafont);
+}
+a:hover{
+    color: var(--accentcol);
+}
+
+
+.content{
+    padding: 10px;
+}
+.profile-info-master{
+    padding-bottom: 50px;
+    border-bottom: 5px solid var(--transcol);
+}
+.profile-info{
+    display: flex;
+    gap: 50px;
+    color: var(--textcol);
+}
+.profile-info-text{
+    padding: 30px 0 30px 0;
+    width: 50%;
+}
+.profile-info-text h1{
+    font-size: 2.5rem;
+    margin: 10px 0 0px 0;
+}
+.profile-info-text p{
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.profile-info-text i{
+    font-size: 1.7rem;
+    margin-left: 5px;
+    color: gold;
+}
+
+.profile-info img{
+    height: 350px;
+    width: 350px;
+    border: 10px solid var(--transcol);
+    border-radius: 50%;
+}
+.profile-info-stats h2{
+    margin-top:30px;
+}
+.profile-info-stats p{
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+/* History */
+.profile-history-text, .profile-watchlist-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-history-text h1, .profile-watchlist-text h1{
+    color: var(--textcol);
+    margin: 30px 0px 10px 10px;
+}
+.profile-history-text p, .profile-watchlist-text p{
+    color: var(--textcol);
+    margin: 0px 30px 0px 0px;
+    border: 2px solid var(--textcol);
+    padding: 2px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .1s ease-out;
+}
+.profile-history-text p:hover, .profile-watchlist-text p:hover{
+    background-color: var(--textcol);
+    color: var(--bodycol);
+}
+.history-card, .watchlist-card{
+    display: flex;
+}
+.horizontal-card{
+    background-color: var(--cardcol);
+    height: 230px;
+    width: 360px;
+    border-radius: 20px;
+    margin: 10px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    overflow: hidden;
+}
+.horizontal-card img{
+    position: relative;
+    top: -32%;
+    transition: .2s ease-out;
+}
+.horizontal-card:hover img{
+   scale: 1.1;
+}
+.horizontal-card-text{
+    position: relative;
+    background-color: var(--transcol);
+    backdrop-filter: blur(10px);
+    padding: 8px 15px 8px 15px;
+    top: 75%;
+    color: var(--textcol);
+    z-index: 2;
+}
+
+
+
+/* Connect */
+.profile-connect h1{
+    color: var(--textcol);
+    margin: 30px 0px 10px 10px;
+}
+.connect-card-master{
+    display: flex;
+    justify-content: space-between;
+}
+.connect-card{
+    margin: 0px 10px 0px 10px;
+    background-color: var(--cardcol);
+    height: 80px;
+    width: 280px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .15s ease-out;
+}
+.connect-card:hover{
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.329);
+}
