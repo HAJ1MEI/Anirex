@@ -19,13 +19,16 @@
 h1,h2,h3,h4,h5,h6{
     font-family: var(--headerfont);
 }
-p,a{
+/* p,a{
     font-family: var(--parafont);
-}
+} */
 
 /* Anime Info */
 .content{
     padding: 10px;
+}
+.content p{
+    font-family: var(--parafont);
 }
 /* .anime-info-master{
     padding: 10px;
@@ -34,6 +37,9 @@ p,a{
     display: flex;
     gap: 50px;
     color: var(--textcol);
+}
+.anime-info-text a{
+    font-family: var(--parafont);
 }
 .anime-info-text{
     width: 50%;

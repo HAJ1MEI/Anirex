@@ -19,9 +19,9 @@
 h1,h2,h3,h4,h5,h6{
     font-family: var(--headerfont);
 }
-p,a{
+/* p,a{
     font-family: var(--parafont);
-}
+} */
 a:hover{
     color: var(--accentcol);
 }
@@ -68,6 +68,7 @@ a:hover{
     margin-top:30px;
 }
 .profile-info-stats p{
+    font-family: var(--parafont);
     font-size: 1.1rem;
     font-weight: 200;
     margin-bottom: 10px;
@@ -85,6 +86,7 @@ a:hover{
 }
 .profile-history-text p, .profile-watchlist-text p{
     color: var(--textcol);
+    font-family: var(--parafont);
     margin: 0px 30px 0px 0px;
     border: 2px solid var(--textcol);
     padding: 2px 10px;
@@ -98,6 +100,9 @@ a:hover{
 }
 .history-card, .watchlist-card{
     display: flex;
+}
+.history-card p{
+    font-family: var(--parafont);
 }
 .horizontal-card{
     background-color: var(--cardcol);

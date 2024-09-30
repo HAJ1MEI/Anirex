@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bodycol:#2E2828;
+    --primarycol: #503A3A;
+    --accentcol: #F65151;
+    --textcol: #FEF4F4;
+    --cardcol: rgb(68, 66, 66);
+    --transcol:rgba(206, 206, 206, 0.219);
+    --headerfont:'Josefin Sans', sans-serif;
+    --border:1px solid rgba(255, 255, 255, 0.137);
+    --parafont: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--textcol);
+    font-family: var(--headerfont);
+}
+
+a:hover{
+    color: var(--accentcol);
+}
+
+footer{
+    position: relative;
+    top: 0;
+    left: 427px;
+    width: 77.5%;
+    margin-top: 0;
+}
+.anime-watch-content{
+    display: flex;
+    /* background-color: var(--bodycol); */
+    position: relative;
+    top: 0;
+    left: 427px;
+    width: 77.5%;
+}
+
+/* Watch video content */
+.watch-content{
+    width: 75%;
+    padding: 30px;
+}
+.watch-video{
+    /* padding: 10px 0 10px 0; */
+    border-radius: 20px;
+    overflow: hidden;
+}
+.video-text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--textcol);
+    padding: 15px;
+    background-color: var(--transcol);
+}
+.video-text p{
+    font-family: var(--parafont);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.episode-list{
+    margin-top:50px ;
+}
+.episode-list h1{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.episode-list ul{
+    display: flex;
+    flex-direction: column;
+    /* gap: 50px; */
+}
+.episode-list ul li{
+    display: flex;
+    align-items: center ;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 1px solid var(--transcol);
+    transition: .3s;
+}
+.episode-list ul li:hover{
+    background-color: var(--transcol);
+}
+.episode-list ul li p{
+    font-family: var(--parafont);
+    padding-left: 70px;
+    color: var(--textcol);
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.episode-list ul li img{
+    border-radius: 8px;
+    width: 10%;
+}
+.active{
+    background-color: rgba(255, 255, 255, 0.411);
+}
+
+
+/* Anime Info content */
+.info-content{
+    padding: 20px;
+    width: 25%;
+    /* height: 230%; */
+    /* background-color: var(--transcol); */
+    backdrop-filter: blur(40px);
+}
+.anime-watch-info{
+    padding: 10px;
+}
+.anime-watch-info img{
+    border-radius: 5px;
+    width: 100%;
+}
+.anime-watch-info h2{
+    margin-top: 10px;
+}
+.anime-watch-info p{
+    font-family: var(--parafont);
+    color: var(--textcol);
+    font-size: .8rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* Recommended */
+.anime-recommended{
+    margin-top: 40px;
+}
+.recommnded-card{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.card-recom{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+.card-recom img{
+    width: 33.25%;
+}
+.card-recom-text{
+    height: 100%;
+    overflow: hidden;
+    padding: 8px;
+}
+.card-recom-text p{
+    font-family: var(--parafont);
+    font-size: .8rem;
+    color: var(--textcol);
+}

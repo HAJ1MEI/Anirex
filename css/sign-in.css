@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bodycol:#2E2828;
+    --primarycol: #503A3A;
+    --accentcol: #F65151;
+    --textcol: #FEF4F4;
+    --cardcol: rgb(68, 66, 66);
+    --transcol:rgba(206, 206, 206, 0.219);
+    --headerfont: 'Pixelify Sans', 'Josefin Sans', sans-serif;
+    --border:1px solid rgba(255, 255, 255, 0.137);
+    --parafont: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--headerfont);
+}
+p,a{
+    font-family: var(--parafont);
+}
+a:hover{
+    color: var(--accentcol);
+}
+hr{
+    border: 1px solid var(--textcol);
+    width: 80%;
+}
+body{
+    background-image: url(/images/signin-body.jpg);
+    background-size: cover;
+}
+.container-sign-in{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin-margin{
+    width: 80%;
+}
+.sign-in-box{
+    background-color: var(--transcol);
+    padding: 30px 0 30px 0; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border-bottom:1px solid rgba(255, 255, 255, 0.26) ;
+    border-left:1px solid rgba(255, 255, 255, 0.26) ;
+    width: 30%;
+}
+/* Heading */
+.sign-in-heading{
+    color: var(--textcol);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.sign-in-heading i{
+    font-size: 1.5rem;
+}
+/* Input */
+.sign-in-input input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: var(--border);
+    padding: 0px 10px 0px 10px;
+}
+.sign-in-input input::placeholder{
+    font-family:  monospace;
+    letter-spacing: 2px;
+}
+
+/* Sign in Button */
+.sign-in-btn button{
+    background-color: var(--accentcol);
+    color: var(--textcol);
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: var(--parafont);
+    font-size: 20px;
+    font-weight: bold;
+}
+.sign-in-btn button:hover{
+    background-color:#970e0e;
+}
+
+/* Remember/forgot----Register */
+.remember-forgot, .register{
+    display: flex;
+    justify-content: space-between;
+    color: var(--textcol);
+}
+.remember-me{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+/* OR */
+.or{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    color: var(--textcol);
+}
+.or p{
+    border: 2px solid var(--textcol);
+    padding: 10px 12px;
+    border-radius: 50%;
+    cursor: default;
+}
+.or img{
+    border-radius: 10px;
+}
+.or img:hover{
+    filter: brightness(0.8);
+}
+  /* Register Form */
+.name{
+    display: flex;
+    gap: 10px;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input[type="email"]:invalid:not(:placeholder-shown) {
+    border: 2px solid red;
+    
+}
