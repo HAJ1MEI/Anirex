@@ -376,13 +376,13 @@ nav .logo h1{
 }
 
 /* You Might Like */
-.you-might-like, .watchlist, .trending, .browse-by-genre{
+.you-might-like, .watchlist, .trending, .browse-by-genre, .new-release{
     /* background-color: red; */
     height: 400px;
     /* width: 1480px; */
     margin-top: 40px;
 }
-.you-might-like-text, .watchlist-text, .trending-text , .browse-by-genre-text{
+.you-might-like-text, .watchlist-text, .trending-text , .browse-by-genre-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -392,6 +392,7 @@ nav .logo h1{
     color: var(--textcol);
     font-family: var(--headerfont)
 }
+
 .you-might-like-text a, .watchlist-text a, .trending-text a , .browse-by-genre-text a{
     font-size: 1.2rem;
     border: 2px solid var(--textcol);
@@ -436,7 +437,7 @@ nav .logo h1{
 .master-card-trending{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 .card-trending{
     background-color: var(--cardcol);
@@ -486,6 +487,9 @@ nav .logo h1{
     z-index: 1;
     
 }
+
+
+
 
 /* Browse Genre */
 .genre-card{

@@ -146,6 +146,12 @@ footer{
     align-items: center;
     width: 100%;
     height: 150px;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+.card-recom:hover{
+    scale: 1.05;
+    /* background-color: var(--transcol); */
 }
 .card-recom img{
     width: 33.25%;

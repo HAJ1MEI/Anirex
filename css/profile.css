@@ -63,7 +63,14 @@ a:hover{
     width: 350px;
     border: 10px solid var(--transcol);
     border-radius: 50%;
+    transition: .2s ease-in-out;
 }
+.profile-info img:hover{
+    cursor: pointer;
+    filter: brightness(.5);
+    border: 10px solid var(--accentcol);
+}
+
 .profile-info-stats h2{
     margin-top:30px;
 }
