@@ -31,7 +31,7 @@ hr{
     width: 80%;
 }
 body{
-    background-image: url(/images/signin-body.jpg);
+    background-image: url(/images/signin-body-dark.jpg);
     background-size: cover;
 }
 .container-sign-in{

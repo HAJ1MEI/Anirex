@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AniRex | Onestop Anime</title>
+    <title>AniRex | One Piece</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/anime-info.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <!-- Nav Bar -->
     <nav>
         <div class="logo">
-            <a href="/index.html">
-                <img src="/icons/trex.png">
-            </a>
-            <a href="/index.html">
-                <h1>AniRex</h1>
-            </a>
+            <img src="/icons/trex.png">
+            <h1>AniRex</h1>
         </div>
         <div class="nav-items">
             <ul>
@@ -25,31 +23,32 @@
                 <a href="#"><li>Movies</li></a>
                 <a href="#"><li>OVA</li></a>
                 <a href="#"><li>Manga</li></a>
-                <a href="/html/Anime-info.html"><li>More</li></a>
+                <a href="#"><li>More</li></a>
                 
             </ul>
         </div>
-        <div class="search">
-            <a href="/html/sign-in.html">
-                <i class="fa-solid fa-user"></i>
-                <!-- <img src="/icons/notification.svg"> -->
+        <div class="notif">
+            <a href="#">
+                <img src="/icons/notification.svg">
             </a>
         </div>
         <div class="profile">
-                <div class="user-img">.</div>
-                <div class="user-txt">
-                    <a href="/html/profile.html">
+            <div class="user-img">.</div>
+            <div class="user-txt">
+                <a href="/html/profile.html">
                     <h3>ARC8</h3>
                     <p>@prash824</p>
-                    </a>
-                </div>
-                <div class="drop-down">
-                    <i class="fa-solid fa-crown"></i>
-                </div>
+                </a>
+            </div>
+            <div class="drop-down">
+                <img src="/icons/down.svg">
+            </div>
+
         </div>
     </nav>
-    <div class="container-selfmade">
 
+    <div class="container-selfmade">
+    
         <!-- Sidebar -->
         <div class="sidebar">
             <div class="top10">
@@ -102,14 +101,12 @@
                         <h3>Continue watching</h3>
                         <a href="#">View all</a>
                     </div>
-                    <a href="/html/mushoku-Ep2.html">
                     <div class="watching-card">
                         <i class="fa-regular fa-circle-play"></i>
                         <h3>Mushoku Tensei</h3>
-                        <p>Episode 2</p>
+                        <p>Episode 12</p>
                         <img src="/images/cards/mushoku-tensei-watching.jpg" alt="">
                     </div>
-                    </a>
                     <div class="watching-card">
                         <i class="fa-regular fa-circle-play"></i>
                         <h3>Dragon Ball Z</h3>
@@ -150,96 +147,89 @@
             </div>
         </div>
 
-        <!-- Content -->
         <div class="content">
-            <div class="hero">
-                <div class="hero-content">
-                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <div class="carousel-text">
-                                <h1>Naruto Shippuden</h1>
-                                <p>Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village. Naruto Uzumaki wants to be the best ninja in the land.</p>
-                                <div class="carousel-text-links">
-                                    <a href="/html/mushoku-Ep3.html">Watch</a>
-                                    <a href="/html/Naruto-info.html">Details</a>
-                                    <a href="#">
-                                        <i class="fa-solid fa-ellipsis"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img src="/images/banners/narto-shippuden-banner.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <div class="carousel-text">
-                                <h1>One Piece</h1>
-                                <p>Monkey D. Luffy wants to become the King of all pirates. Along his quest he meets: a skilled swordsman named Roronoa Zolo; Nami, a greedy thief who has a knack for navigation; Usopp, a great liar who has an affinity for inventing; Sanji, a warrior cook; and other. The gang sets sail to unknown seas in Grand Line to find the treasure of One Piece.</p>
-                                <div class="carousel-text-links">
-                                    <a href="#">Watch</a>
-                                    <a href="/html/onepiece-info.html">Details</a>
-                                    <a href="#">
-                                        <i class="fa-solid fa-ellipsis"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img src="/images/banners/onepiece-banner.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <div class="carousel-text">
-                                <h1>Attack on Titan</h1>
-                                <p>Humankind constructs lofty walls to safeguard itself from immense creatures, the Titans. It battles to regain its land captured by the Titans which is not easy.</p>
-                                <div class="carousel-text-links">
-                                    <a href="#">Watch</a>
-                                    <a href="#">Add to Watchlist</a>
-                                    <a href="#">
-                                        <i class="fa-solid fa-ellipsis"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img src="/images/banners/AOT-banner.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item"><
-                            <div class="carousel-text">
-                                <h1>Mushoku Tensei</h1>
-                                <p>Despite being bullied, scorned, and oppressed all of his life, a 34-year-old shut-in still found the resolve to attempt something heroic—only for it to end in a tragic accident. But in a twist of fate, he awakens in another world as Rudeus Greyrat, starting life again as a baby born to two loving parents.</p>
-                                <div class="carousel-text-links">
-                                    <a href="/html/mushoku-Ep1.html">Watch</a>
-                                    <a href="/html/Mushoku-tensei-info.html">Details</a>
-                                    <a href="#">
-                                        <i class="fa-solid fa-ellipsis"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img src="/images/banners/mushoku-tensei banner.jpg" class="d-block w-100" alt="...">
-                          </div>
+            
+            <div class="anime-info-master">
+                <div class="anime-info">
+                    <img src="/images/cards/onepiece.webp" alt="">
+                    <div class="anime-info-text">
+                        <h1>One Piece</h1>
+                        <p>Wealth, fame, power... Gold Roger, the King of the Pirates, attained this and everything else the world had to offer.
+                        ONE PIECE is a legendary high-seas quest unlike any other. Luffy is a young adventurer who has longed for a life of freedom ever since he can remember. He sets off from his small village on a perilous journey to find the legendary fabled treasure, ONE PIECE, to become King of the Pirates! One Piece has received praise for its storytelling, world-building, art, characterization, and humour. It has received many awards and is ranked by critics, reviewers, and readers as one of the best manga of all time. By August 2022, it had over 516.6 million copies in circulation in 61 countries and regions worldwide, making it the best-selling manga series in history, and the best-selling comic series printed in a book volume.
+                        </p>
+                        <a href="/html/episode1.html">Watch Now</a>
+                        <a href="#"> Add to Watchlist</a>
+                        <a href="#">
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+                
+                <div class="anime-details">
+                    <p><b> Release:</b> 15 February 2007</p>
+                    <p><b> Studio:</b> Pierrot</p>
+                    <h2>Tags</h2>
+                </div>
+
+                <div class="anime-tag">
+                    <p>Adventure</p>
+                    <p>Action</p>
+                    <p>Fantasy</p>
+                    <p>Super Natural</p>
+                    <p>Pirate</p>
+                </div>
+
+                <div class="anime-character-master">
+                    <h2>Characters</h2>
+                    <div class="anime-character">
+                        <div class="naruto character-profile">
+                            <a href="https://naruto.fandom.com/wiki/Naruto_Uzumaki">
+                                <img src="/images/characters/luffu.jpg" alt="">
+                            </a>
+                            <h2>Luffy</h2>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
+                        <div class="sasuke character-profile">
+                            <a href="https://naruto.fandom.com/wiki/Sasuke_Uchiha">
+                                <img src="/images/characters/zoro.jpg" alt="">
+                            </a>
+                            <h2>Zoro</h2>
+                            
+                        </div>
+                        <div class="sakura character-profile">
+                            <img src="/images/characters/usopp.jpg" alt="">
+                            <h2>Usopp</h2>
+                        </div>
+                        <div class="kakashi character-profile">
+                            <a href="https://naruto.fandom.com/wiki/Kakashi_Hatake">
+                                <img src="/images/characters/sanji.jpg" alt="">
+                            </a>
+                            <h2>Sanji</h2>
+                        </div>
+                        <div class="itachi character-profile">
+                            <img src="/images/characters/robin.jpg" alt="">
+                            <h2>Robin</h2>
+                        </div>
+                        <div class="jiraya character-profile">
+                            <img src="/images/characters/chopper.jpg" alt="">
+                            <h2>Chopper</h2>
+                        </div>
+                        <div class="shikamaru character-profile">
+                            <img src="/images/characters/nami.jpg" alt="">
+                            <h2>Nami</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- You might like -->
-            <div class="you-might-like">
-                <div class="you-might-like-text">
-                    <h2>You might like</h2>
-                    <a href="#">See all</a>
-                </div>
-                <div class="master-card">
+            <div class="recommended-anime-master">
+                <h2>Recomemended</h2>
+                <div class="recommended-anime">
                     <div class="card">
-                        <a href="/html/Ore-wa-subete-info.html">
-                        <img src="/images/cards/ore wa subete.jpg" alt="">
-                        </a>
+                        <img src="/images/cards/rezero.webp" alt="">
                     </div>
-                    <div class="card"><a href="/html/Mushoku-tensei-info.html">
-                        <img src="/images/cards/mushoku-tensei-card.jpg" alt="">
-                        </a>
+                    <div class="card">
+                        <img src="/images/cards/ao nohako.webp" alt="">
                     </div>
                     <div class="card">
                         <img src="/images/cards/arifureta 3.webp" alt="">
@@ -250,16 +240,6 @@
                     <div class="card">
                         <img src="/images/cards/bleach.webp" alt="">
                     </div>
-                </div>
-            </div>
-
-            <!-- Watchlist -->
-            <div class="watchlist ">
-                <div class="watchlist-text flex">
-                    <h2>Your Watchlist</h2>
-                    <a href="#">See all</a>
-                </div>
-                <div class="master-card">
                     <div class="card">
                         <img src="/images/cards/aot.jpg" alt="">
                     </div>
@@ -275,80 +255,24 @@
                     <div class="card">
                         <img src="/images/cards/bastard.jpg" alt="">
                     </div>
-                </div>
-            </div>
-
-            <!-- Trending -->
-            <div class="trending ">
-                <div class="trending-text flex">
-                    <h2>Trending</h2>
-                    <a href="#">See all</a>
-                </div>
-                <div class="master-card-trending">
-                    <div class="card-trending">
-                        <h1>1</h1>
+                    <div class="card">
                         <img src="/images/cards/solo-leveling2.jpg" alt="">
                     </div>
-                    <div class="card-trending">
-                        <h1>2</h1>
+                    <div class="card">
                         <img src="/images/cards/uzumaki.webp" alt="">
                     </div>
-                    <div class="card-trending">
-                        <h1>3</h1>
+                    <div class="card">
                         <img src="/images/cards/100gf.jpg" alt="">
                     </div>
-                    <div class="card-trending">
-                        <h1>4</h1>
+                    <div class="card">
                         <img src="/images/cards/serei gensouki 2.webp" alt="">
                     </div>
+                    <div class="card">
+                        <img src="/images/cards/onepiece.webp" alt="">
+                    </div>
                 </div>
             </div>
-
             
-
-            <!-- Browse-by-genre -->
-            <div class="Browse-by-genre">
-                <div class="browse-by-genre-text">
-                    <h2>Browse by Genre</h2>
-                    <a href="#">See all</a>
-                </div>
-                <div class="genre-card">
-                    <div class="card">
-                        <h1> Isekai </h1>
-                        <img src="/images/banners/isekai.jpg" alt="">
-                    </div>
-                    <div class="card">
-                        <h1> Action </h1>
-                        <img src="/images/banners/action.jpg" alt="">
-                    </div>
-                    <div class="card">
-                        <h1> Adventure </h1>
-                        <img src="/images/banners/adventure.jpg" alt="">
-                    </div>
-                    <div class="card">
-                        <h1> Fantasy </h1>
-                        <img src="/images/banners/fantasy.jpg" alt="">
-                    </div>
-                    <div class="card">
-                        <h1> Ecchi </h1>
-                        <img src="/images/banners/ecchi.jpg" alt="">
-                    </div>
-                    <div class="card">
-                        <h1> Romance </h1>
-                        <img src="/images/banners/romance.jpg" alt="">
-                    </div>
-                    <div class="card">
-                        <h1> Comedy </h1>
-                        <img src="/images/banners/comedy.jpg" alt="">
-                    </div>
-                    <div class="card">
-                        <h1> Mystery </h1>
-                        <img src="/images/banners/mystery.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Footer -->
             <footer
           class="text-center text-lg-start text-white"
           >
@@ -487,9 +411,8 @@
     <!-- Grid container -->
             </footer>
         </div>
-        
     </div>
-    
+
     <script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
